@@ -10,7 +10,7 @@ class App extends Component {
         <h2>Create new Rent</h2>
         <div className="rentInput">
           <span className="rentInput__type">Bike name
-            <input className="rentInput__name"></input>
+            <input className="rentInput__name" type="text"></input>
           </span>
           <span className="rentInput__type">Bike type
           <select className="rentInput__bike">
@@ -20,7 +20,7 @@ class App extends Component {
           </select>
           </span>
           <span className="rentInput__type">Rent Price
-            <input className="rentInput__price"></input>
+            <input className="rentInput__price" type="number"></input>
             </span>
           
           <button className="rentInput__btn" type="submit">Submit rent</button>
