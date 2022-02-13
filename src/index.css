@@ -5,7 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: rgb(212, 212, 212);
+  background-color: rgb(221, 221, 221);
 }
 
 code {
@@ -23,7 +23,7 @@ code {
   justify-content: space-around;
   align-items: flex-end;
   padding: 20px;
-  background-color: rgb(192, 192, 192);
+  background-color: rgb(206, 206, 206);
   border-radius: 5px;
 }
 
@@ -37,14 +37,16 @@ code {
   width: 300px;
   border: 1px solid grey;
   border-radius: 5px;
+  outline: none;
 }
 
 .rentInput__bike {
   margin-top: 10px;
   padding: 10px;
-  width: 250px;
+  width: 300px;
   border: 1px solid grey;
   border-radius: 5px;
+  outline: none;
 }
 
 .rentInput__price {
@@ -53,6 +55,7 @@ code {
   width: 150px;
   border: 1px solid grey;
   border-radius: 5px;
+  outline: none;
 }
 
 .rentInput__btn {
@@ -61,4 +64,63 @@ code {
   border-radius: 5px;
   background-color: green;
   color: white;
+  cursor: pointer;
+}
+
+.rentBike {
+  margin-top: 50px;
+}
+
+.rentSpan {
+  display: flex;
+  align-items: center;
+}
+
+.rentSpan__type {
+  margin: 0 10px;
+}
+
+.rentSpan__type:first-child {
+  margin: 0 10px 0 0;
+}
+
+.rentSpan__type:last-child {
+  margin: 0 0 0 10px;
+}
+
+.rentBox {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 60px;
+  border: 1px solid rgb(182, 182, 182);
+  background-color: white;
+  border-radius: 5px;
+}
+
+.rentBox__btn {
+  padding: 10px 15px;
+  border: 1px solid red;
+  border-radius: 5px;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+}
+
+.avail-btn__rent {
+  padding: 10px 30px;
+  border: 1px solid rgb(38, 0, 255);
+  border-radius: 5px;
+  background-color: rgb(38, 0, 255);
+  color: white;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.avail-btn__del {
+  padding: 10px 30px;
+  border: 1px solid rgb(255, 8, 0);
+  border-radius: 5px;
+  background-color: rgb(255, 0, 0);
+  color: white;
+  cursor: pointer;
 }

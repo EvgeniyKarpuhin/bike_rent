@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-import Rent from "./Component/rentInform";
+import Rent from "./Component/rent";
+import Avail from './Component/available';
 
 class App extends Component {
   render() {
@@ -24,6 +25,8 @@ class App extends Component {
           
           <button className="rentInput__btn" type="submit">Submit rent</button>
         </div>
+        <Rent />
+        <Avail />
       </div>
     );
   }
