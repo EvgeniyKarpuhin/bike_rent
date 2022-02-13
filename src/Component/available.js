@@ -12,8 +12,8 @@ class Avail extends Component {
             <span className="rentSpan__type">price</span>
           </div>
           <div className="avail-btn">
-            <button className="avail-btn__rent">Rent</button>
-            <button className="avail-btn__del">Delete</button>
+            <button className="avail-btn__rent" type="submit">Rent</button>
+            <button className="avail-btn__del" type="submit">Delete</button>
           </div>
         </div>
       </div>

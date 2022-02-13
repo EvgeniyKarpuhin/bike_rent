@@ -11,7 +11,7 @@ class Rent extends Component {
             <span className="rentSpan__type">Super bike</span> / <span className="rentSpan__type">type</span> / <span className="rentSpan__type">price</span>
             </div>
           
-          <button className="rentBox__btn">Cancel rent</button>
+          <button className="rentBox__btn" type="submit">Cancel rent</button>
         </div>
       </div>
     );
