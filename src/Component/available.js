@@ -1,5 +1,9 @@
 import React, { Component } from "react";
 
+const bikeName = ['Over'];
+const bikeType = [];
+const bikePrice = [];
+
 class Avail extends Component {
   render() {
     return (
@@ -7,9 +11,9 @@ class Avail extends Component {
         <h2>Available bicycles</h2>
         <div className="rentBox">
           <div className="rentSpan">
-            <span className="rentSpan__type">Super bike</span> /
-            <span className="rentSpan__type">type</span> /
-            <span className="rentSpan__type">price</span>
+            <span className="rentSpan__type">{bikeName}</span> /
+            <span className="rentSpan__type">{bikeType}</span> /
+            <span className="rentSpan__type">{bikePrice}$</span>
           </div>
           <div className="avail-btn">
             <button className="avail-btn__rent" type="submit">Rent</button>
