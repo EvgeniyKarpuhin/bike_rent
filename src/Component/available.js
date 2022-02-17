@@ -1,19 +1,20 @@
-import React, { Component } from "react";
+import React from "react";
 
-const bikeName = ['Over'];
-const bikeType = [];
-const bikePrice = [];
+// const bikeName = [];
+// const bikeType = [];
+// const bikePrice = [];
 
-class Avail extends Component {
-  render() {
+const Avail = (props) => {
+  console.log(props.message);
+  // render() {
     return (
       <div className="rentBike">
         <h2>Available bicycles</h2>
         <div className="rentBox">
           <div className="rentSpan">
-            <span className="rentSpan__type">{bikeName}</span> /
-            <span className="rentSpan__type">{bikeType}</span> /
-            <span className="rentSpan__type">{bikePrice}$</span>
+            <span className="rentSpan__type"> {props.bikeName} </span> /
+            <span className="rentSpan__type"> {props.bikeType} </span> /
+            <span className="rentSpan__type"> {props.bikePrice}$ </span>
           </div>
           <div className="avail-btn">
             <button className="avail-btn__rent" type="submit">Rent</button>
@@ -22,7 +23,7 @@ class Avail extends Component {
         </div>
       </div>
     );
-  }
+  // }
 }
 
 export default Avail;

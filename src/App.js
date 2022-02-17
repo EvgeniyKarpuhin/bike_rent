@@ -31,7 +31,7 @@ class App extends Component {
           </button>
         </form>
         <Rent />
-        <Avail />
+        <Avail bikeName='jjjjj' bikeType='hhh' bikePrice='kkk'/>
       </div>
     );
   }
